@@ -1,0 +1,5 @@
+{
+    "tableName": "crudoperation",
+    "partitionKeyName": "id",
+    "partitionKeyType": "S"
+}

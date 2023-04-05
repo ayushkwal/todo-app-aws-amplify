@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/crud",
+      "lambdaFunction": "serverlessamplifyef9488ac",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/crud"
+    }
+  ],
+  "resourceName": "apid1fc0ab1",
+  "apiName": "apid1fc0ab1",
+  "functionArns": [
+    {
+      "lambdaFunction": "serverlessamplifyef9488ac"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-serverlessamplify-dev-195825-authRole",
+    "unAuthRoleName": "amplify-serverlessamplify-dev-195825-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "serverlessamplifyef9488ac",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
